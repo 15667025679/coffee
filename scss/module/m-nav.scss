@@ -1,0 +1,47 @@
+//  底部导航
+@font-face {
+  font-family: 'iconfont';  /* project id 373537 */
+  src: url('//at.alicdn.com/t/font_373537_8z5emt43n8m8ia4i.eot');
+  src: url('//at.alicdn.com/t/font_373537_8z5emt43n8m8ia4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_373537_8z5emt43n8m8ia4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_373537_8z5emt43n8m8ia4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_373537_8z5emt43n8m8ia4i.svg#iconfont') format('svg');
+}
+#m-nav {
+  .nav{
+    width:7.5rem;
+    height:1rem;
+    background:#f1eedb;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    a{
+      display:inline-block;
+      font-size:.18rem;
+      width:0.75rem;
+      text-align:center;
+      -webkit-tap-highlight-color:rgba(255,255,255,0);
+    }
+    .index-img1{
+      font-family:'iconfont'!important;
+      font-size:.6rem;
+      font-style:normal;
+    }
+    .index-img2,.index-img3,.index-img4{
+      font-family:'iconfont'!important;
+      font-size:.6rem;
+      font-style:normal;
+    }
+  }
+  }
+}
